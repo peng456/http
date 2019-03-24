@@ -46,11 +46,11 @@ header分两种  请求header 、响应header。
 
 203 Non-Authoritative Information
 
-204 No Content
+204 No Content  已经处理，无返回内容。
 
 205 Reset Content
 
-206 Partial Content
+206 Partial Content  部分请求，范围请求。比如请求图片的一部分。（场景：图片太大，返回太慢===》分批返回，逐步渲染）
 
 207 Multi-Status 
 
@@ -66,7 +66,7 @@ header分两种  请求header 、响应header。
 
 303 See Other
 
-304 Not Modified
+304 Not Modified 上次请求资源 无修改
 
 305 Use Proxy
 
